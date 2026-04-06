@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Sharma Store",
+    "slug": "sharma-store",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "android": {
+      "package": "com.sharma.store"
+    }
+  }
+}
