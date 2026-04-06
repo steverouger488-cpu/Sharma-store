@@ -1,11 +1,16 @@
 {
   "expo": {
     "name": "Sharma Store",
-    "slug": "sharma-store",
+    "slug": "import-from-github",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
     "android": {
       "package": "com.sharma.store"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f480527d-49f0-4783-995b-c4bf6109247d"
+      }
     }
   }
 }
