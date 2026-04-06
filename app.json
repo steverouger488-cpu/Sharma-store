@@ -3,15 +3,9 @@
     "name": "Sharma Store",
     "slug": "import-from-github",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
     "sdkVersion": "50.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "android": {
-      "package": "com.sharma.store",
-      "permissions": []
+      "package": "com.sharma.store"
     },
     "extra": {
       "eas": {
@@ -20,4 +14,3 @@
     }
   }
 }
-
