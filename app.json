@@ -1,16 +1,35 @@
 {
   "expo": {
-    "name": "Sharma Store",
-    "slug": "import-from-github",
+    "name": "My Shop",
+    "slug": "my-shop",
     "version": "1.0.0",
-    "sdkVersion": "50.0.0",
-    "android": {
-      "package": "com.sharma.store"
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f14"
     },
-    "extra": {
-      "eas": {
-        "projectId": "f480527d-49f0-4783-995b-c4bf6109247d"
-      }
-    }
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f14"
+      },
+      "package": "com.myshop.inventory",
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.myshop.inventory"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow My Shop to access your photos to add product images."
+        }
+      ]
+    ]
   }
 }
